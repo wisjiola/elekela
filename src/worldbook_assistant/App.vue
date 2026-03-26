@@ -3811,8 +3811,8 @@ onUnmounted(() => {
 }
 
 .wb-main-layout {
-  min-height: 460px;
-  max-height: 70vh;
+  min-height: 300px;
+  max-height: calc(70vh * 0.75);
   display: grid;
   grid-template-columns: 320px 10px minmax(0, 1fr);
   gap: 0;
@@ -3843,7 +3843,7 @@ onUnmounted(() => {
 .list-scroll {
   flex: 1 1 auto;
   min-height: 210px;
-  max-height: calc(70vh - 210px);
+  max-height: calc(70vh * 0.75 - 210px);
   overflow: auto;
   display: flex;
   flex-direction: column;
@@ -4017,7 +4017,7 @@ onUnmounted(() => {
 }
 
 .wb-editor {
-  max-height: 70vh;
+  max-height: calc(70vh * 0.75);
   overflow: hidden;
 }
 
