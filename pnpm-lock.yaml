@@ -26,6 +26,12 @@ importers:
       async-wait-until:
         specifier: ^2.0.31
         version: 2.0.31
+<<<<<<< HEAD
+=======
+      axios:
+        specifier: 1.14.0
+        version: 1.14.0
+>>>>>>> f759a3e3f10c9abb6086ecf76222f35268e80cf1
       compare-versions:
         specifier: ^6.1.1
         version: 6.1.1
