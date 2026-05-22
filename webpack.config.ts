@@ -452,6 +452,10 @@ function parse_configuration(entry: Entry): (_env: any, argv: any) => webpack.Co
             { from: 'klona', imports: ['klona'] },
             { from: 'vue-final-modal', imports: ['useModal'] },
             { from: 'zod', imports: ['z'] },
+<<<<<<< HEAD
+=======
+            { from: 'type-fest', imports: [['*', 'TypeFest']], type: true },
+>>>>>>> 6a70f8e1a961db42005bf8013b76cf97e1512794
           ],
         }),
         unpluginVueComponents({
