@@ -83,6 +83,10 @@
     "@vueuse/integrations": "^13.9.0",
     "@vueuse/shared": "^13.9.0",
     "async-wait-until": "^2.0.31",
+<<<<<<< HEAD
+=======
+    "axios": "1.14.0",
+>>>>>>> 1b593ab69d89d2d5d22e9730e0163f19dd209fac
     "compare-versions": "^6.1.1",
     "dedent": "^1.7.2",
     "gsap": "^3.15.0",
